@@ -118,6 +118,7 @@ export default {
 }
 .carousel-3d-slide {
   border-radius: 16px;
+  border: 1px solid #fff;
 }
 .image-wrapper {
   position: absolute;
@@ -126,15 +127,14 @@ export default {
   left: 0;
   top: 0;
   border-radius: 16px;
+  background-color: black;
 }
 .image-wrapper img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 100%;
-  width: auto;
-  border-radius: 16px;
+  width: 100%;
 }
 h1 {
   text-align: center;
