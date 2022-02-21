@@ -2,15 +2,15 @@ export default {
   target: 'static',
 
   head: {
-    title: 'wife-wot',
+    title: 'Юлия Ушакова - WoT',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Wife WoT' },
+      { hid: 'description', name: 'description', content: 'Юлия Ушакова - WoT' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/wot/fav.png' }
     ]
   },
   plugins: [
