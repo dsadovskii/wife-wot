@@ -125,8 +125,8 @@ export default {
   justify-content: center;
 }
 .carousel-3d-slide {
-  border-radius: 16px;
-  border: 1px solid #fff;
+  border-radius: 16px !important;
+  border: 1px solid #fff !important;
 }
 .image-wrapper {
   position: absolute;

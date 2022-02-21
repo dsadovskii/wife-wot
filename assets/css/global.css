@@ -2,6 +2,7 @@ html {
   margin: 0;
   width: 100%;
   height: 100vh;
+  min-height: 100%;
   max-height: fit-content;
   display: flex;
   flex-direction: column;
@@ -14,4 +15,25 @@ body, #__nuxt, #__layout {
   flex-direction: column;
   flex-grow: 1;
   font-family: 'Verdana', 'sans-serif';
+}
+
+.vgs {
+  background-color: #000 !important;
+  max-height: fit-content;
+}
+
+@media (max-width: 768px) {
+  .vgs__gallery {
+    display: block !important;
+  }
+  .vgs__container {
+    transform: translateY(-50%) !important;
+    height: unset !important;
+    margin-top: 0 !important;
+    display: flex;
+    justify-content: center;
+  }
+  .vgs__container__img {
+    width: 65% !important;
+  }
 }
